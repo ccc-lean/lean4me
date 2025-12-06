@@ -1,0 +1,14 @@
+name = "lean4me"
+version = "0.1.0"
+defaultTargets = ["lean4me"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "Lean4me"
+
+[[lean_exe]]
+name = "lean4me"
+root = "Main"
